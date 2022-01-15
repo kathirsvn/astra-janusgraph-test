@@ -12,8 +12,8 @@ repositories {
     google()
 }
 
-sourceCompatibility = 16
-targetCompatibility = 16
+sourceCompatibility = 8
+targetCompatibility = 8
 
 ext {
     SPRING_VERSION = '5.3.14'
