@@ -1,6 +1,5 @@
 Update conf directory files
-===========================
-
+-----
 conf/janus.properties
 ```
 storage.cql.keyspace=\key space name\
