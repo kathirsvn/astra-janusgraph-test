@@ -3,8 +3,8 @@ Update conf directory files
 
 conf/janus.properties
 ```
-storage.cql.keyspace - \key space name\
-storage.cql.internal.file-configuration - \astra conf file path\
+storage.cql.keyspace=\key space name\
+storage.cql.internal.file-configuration=/path/to/astra.conf
 ```
 
 conf/astra.conf
