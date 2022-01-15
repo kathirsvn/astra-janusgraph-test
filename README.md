@@ -1,4 +1,4 @@
-_Update conf directory files_
+*Update conf directory files*
 
 conf/janus.properties
 ```
@@ -19,5 +19,5 @@ password = "clientSecret"
 
 2) Start project with JanusGraph configuration:
 ```
-java -Djanusgraph.config.path=/path/to/janusgraph/config -jar build/libs/mapped-astradb-test.jar
+java -Djanusgraph.config.path=/path/to/conf/janus.properties/ -jar build/libs/mapped-astradb-test.jar
 ```
